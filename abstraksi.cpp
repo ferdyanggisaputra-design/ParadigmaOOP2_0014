@@ -17,3 +17,11 @@ class AbstraksiKls{
         cout << "Nilai y: " << y << endl;
     }
 };
+
+int main(){
+    AbstraksiKls ak;
+    ak.setXY("Yogyakarta", "kampus");
+    ak.display();
+
+    return 0;
+}
