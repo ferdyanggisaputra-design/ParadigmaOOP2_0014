@@ -16,3 +16,12 @@ public:
         cout << "Saldo akhir: Rp " << saldo << endl;
     }
 };
+
+class RekeningSyariah : public RekeningBank {
+public:
+    RekeningSyariah(double s) : RekeningBank(s) {}
+
+    void potongAdmin() {
+        cout << "Rekening Syariah bebas biaya admin" << endl;
+    }
+};
