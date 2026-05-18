@@ -11,3 +11,9 @@ class AbstraksiKls{
         x = a;
         y = b;
     }
+    //
+    void display(){
+        cout << "Nilai x: " << x << endl;
+        cout << "Nilai y: " << y << endl;
+    }
+};
